@@ -27,14 +27,14 @@
   color: black;
   width: 75px;
   height: 75px;
-  border: 2px solid black;
+  border: 2px solid rgb(200, 179, 179);
   font-size: small;
   transition: all 500ms ease;
 }
 
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
-  background-color: black;
+  background-color: var(--accent-color);
   color: white;
 }
 
@@ -47,7 +47,7 @@
   position: relative;
   top: -250px;
   left: 250px;
-  background-color: black;
+  background-color: var(--accent-color);
   color: white;
   display: grid;
   align-items: center;
@@ -56,4 +56,29 @@
   font-family: 'Jost', sans-serif; 
   max-width: 500px;
   height: auto;
+}
+
+.swiper_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15%;
+  text-align: center;
+}
+
+.swiper_header_title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.167em;
+  letter-spacing: 0.08em;
+  color: var(--accent-color);
+}
+
+.swiper_header_explanation {
+  font-family: 'Dancing Script', cursive;
+  font-size: 36px;
+  opacity: 0.50;
+  margin: 2.5rem 0;
 }
