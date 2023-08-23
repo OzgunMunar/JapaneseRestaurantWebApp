@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../components/Navbar.js'
+import LocationCarousel from '../components/LocationCarousel.js'
 
 const Home = () => {
 
   return (
 
     <div>
-        <Navbar />
+
         <section class="first_section">
 
             <div class="first_section_text">
@@ -24,9 +24,9 @@ const Home = () => {
         <section class="second_section">
 
             <div class="second_section_images">
-                <img src="./images/section1_1.jpg" alt="Chef's seasoning a salad." />
-                <img src="./images/section1_2.jpg" alt="Well sorted sushi table with sauce." />
-               <img src="./images/section1_3.jpg" alt="A food on the table" />
+                <img src="images/section1_1.jpg" alt="Chef's seasoning a salad." />
+                <img src="images/section1_2.jpg" alt="Well sorted sushi table with sauce." />
+                <img src="images/section1_3.jpg" alt="A food on the table" />
             </div>
 
             <h1 class="second_section_text">Available in all delivery platforms</h1>
@@ -57,6 +57,10 @@ const Home = () => {
             </div>
 
         </section>
+
+        <div class="horizontal_line"></div>
+
+        <LocationCarousel />
 
         <div class="horizontal_line"></div>
 
