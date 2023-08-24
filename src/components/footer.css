@@ -9,11 +9,9 @@
 }
 
 .footer_upper_section_left_text {
-    width: 75%;
     display: grid;
     align-items: center;
     justify-content: center;
-    
 }
 
 .footer_upper_section_reservate {
@@ -61,6 +59,13 @@
     width: 100%;
     height:100px;
     color: white;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 2rem;
+    padding: 0 5rem;
 }
 
 .footer_lower_left_section {

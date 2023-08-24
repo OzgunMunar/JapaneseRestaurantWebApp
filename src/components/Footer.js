@@ -36,21 +36,30 @@ const Footer = () => {
               .x ARIGATO x.
             </div>
 
+          </div>
+
+          <div className='footer_lower_right_section'>
+            
             <div className='footer_lower_left_social_buttons'>
+
               <div className='facebook_logo_container'>
                 <CgFacebook />
               </div>
+
               <div className='twitter_logo_container'>
                 <VscTwitter />
               </div>
+
               <div className='instagram_logo_container'>
                 <CgInstagram />
               </div>
+
               <div className='linkedin_logo_container'>
                 <TiSocialLinkedin />
               </div>
+              
             </div>
-            
+
           </div>
 
         </div>
