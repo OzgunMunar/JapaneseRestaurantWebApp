@@ -1,8 +1,7 @@
 .swiper {
-  width: 1350px;
   margin-left: auto;
   margin-right: auto;
-  height: 750px;
+  height: auto;
 }
 
 .swiper-slide {
@@ -40,13 +39,10 @@
 
 .swiper-button-prev:after,
 .swiper-button-next:after  {
-  font-size: 25px
+  font-size: var(--fontSize2);
 }
 
 .slide_explanation {
-  position: relative;
-  top: -250px;
-  left: 250px;
   background-color: var(--accent-color);
   color: white;
   display: grid;
@@ -54,7 +50,6 @@
   gap: 2rem;
   padding: 3rem;
   font-family: 'Jost', sans-serif; 
-  max-width: 500px;
   height: auto;
 }
 
@@ -70,7 +65,7 @@
 .swiper_header_title {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: 72px;
+  font-size: var(--fontSize4);
   line-height: 1.167em;
   letter-spacing: 0.08em;
   color: var(--accent-color);
@@ -78,7 +73,7 @@
 
 .swiper_header_explanation {
   font-family: 'Dancing Script', cursive;
-  font-size: 36px;
+  font-size: var(--fontSize2);
   opacity: 0.50;
   margin: 2.5rem 0;
 }

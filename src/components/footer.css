@@ -1,7 +1,7 @@
 .footer_upper_section {
     width: 100%;
     margin: 8em 0;
-    padding: 0 15vw;
+    /* padding: 0 15vw; */
     
     display: flex;
     align-items: center;
@@ -15,12 +15,11 @@
 }
 
 .footer_upper_section_reservate {
-    width: 430px;
+    /* width: 430px; */
     height: 400px;
     background-color: var(--accent-color);
     font-family: 'Jost', sans-serif;  
     color: white;
-    padding: 2rem 0;
 
     display: grid;
     align-items: center;

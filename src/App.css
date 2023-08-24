@@ -10,7 +10,20 @@ font-family: 'Playfair Display', serif; title */
 }
 
 :root {
+
     --accent-color: #454545;
+    --ratio: 1.414;
+
+    --fontSize1: calc(1em * var(--ratio));
+
+    --fontSize2: calc(var(--fontSize1) * var(--ratio));
+
+    --fontSize3: calc(var(--fontSize2) * var(--ratio));
+
+    --fontSize4: calc(var(--fontSize3) * var(--ratio));
+
+    --fontSize5: calc(var(--fontSize4) * var(--ratio));
+
 }
 
 .navbar {
@@ -46,7 +59,7 @@ font-family: 'Playfair Display', serif; title */
 }
 
 .first_section {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,7 +79,7 @@ font-family: 'Playfair Display', serif; title */
 .first_section_title {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    font-size: 72px;
+    font-size: var(--fontSize5);
     line-height: 1.167em;
     letter-spacing: 0.08em;
     color: var(--accent-color);
@@ -74,7 +87,7 @@ font-family: 'Playfair Display', serif; title */
 
 .first_section_explanation {
     font-family: 'Dancing Script', cursive;
-    font-size: 36px;
+    font-size: var(--fontSize2);
     opacity: 0.50;
     margin-top: 2.5rem;
 }
@@ -87,7 +100,7 @@ font-family: 'Playfair Display', serif; title */
 
 .first_section_reserve_button {
     padding: 1rem 3rem;
-    font-size: 1.5rem;
+    font-size: var(--fontSize1);
     font-family: 'Jost', sans-serif;
     font-weight: 500;
     background-color: var(--accent-color);
@@ -105,7 +118,7 @@ font-family: 'Playfair Display', serif; title */
 
 .first_section_orderonline_button {
     padding: 1rem 3rem;
-    font-size: 1.5rem;
+    font-size: var(--fontSize1);
     font-family: 'Jost', sans-serif;
     background-color: white;
     color: color;
@@ -132,7 +145,7 @@ font-family: 'Playfair Display', serif; title */
     bottom: 7.5rem;
     color: white;
     font-family: 'Dancing Script', cursive;
-    font-size: 2rem;
+    font-size: var(--fontSize3);
     width: 100vw;
     text-align: center;
 }
@@ -200,7 +213,7 @@ font-family: 'Playfair Display', serif; title */
 .third_section_title {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    font-size: 72px;
+    font-size: var(--fontSize4);
     line-height: 1.167em;
     margin: 0 3rem;
     color: var(--accent-color);
@@ -208,7 +221,7 @@ font-family: 'Playfair Display', serif; title */
 
 .third_section_explanation {
     font-family: 'Dancing Script', cursive;
-    font-size: 36px;
+    font-size: var(--fontSize2);
     opacity: 0.50;
     margin-top: 2.5rem;
     margin-left: 3.5rem;
