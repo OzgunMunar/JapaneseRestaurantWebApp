@@ -17,7 +17,7 @@ export default function App() {
 
       <div className='swiper_header'>
         <h3 className='swiper_header_title'>BROWSE OUR LOCATIONS</h3>
-        <p class="swiper_header_explanation">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque tempus facilisis feugiat condimentum et. Ut et ut maecenas amet ipsum accumsan fermentum.</p>
+        <p className="swiper_header_explanation">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque tempus facilisis feugiat condimentum et. Ut et ut maecenas amet ipsum accumsan fermentum.</p>
       </div>
 
       <Swiper

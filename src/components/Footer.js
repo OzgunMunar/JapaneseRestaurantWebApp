@@ -33,7 +33,7 @@ const Footer = () => {
 
           <div className='footer_lower_left_section'>
 
-            <div class="logo">
+            <div className="logo">
               .x ARIGATO x.
             </div>
 
