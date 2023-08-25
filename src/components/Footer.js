@@ -13,7 +13,8 @@ const Footer = () => {
 
           <div className='footer_upper_section_left_text'>
             <h3 className='footer_upper_section_header'>Come and Visit Us!</h3>
-            <p class="footer_upper_section_explanation">We will always try to cook the best food you've ever had so you have the best restaurant experience ever.</p>
+            <p className="footer_upper_section_explanation">We will always try to cook the best food you've ever had so you have the best restaurant experience ever.</p>
+            <img className='footer_upper_section_map_picture' src='/images/map.png' alt='google map location indicator' />
           </div>
 
           <div className='footer_upper_section_reservate'>

@@ -85,7 +85,7 @@
   .first_section_title {
     font-size: var(--fontSize4);
   }
-  
+
   .swiper{
     width: 900px;
   }
@@ -150,6 +150,15 @@
     left: 200px;
   }
 
+  .footer_upper_section_left_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 1rem;
+    height: 750px;
+  }
+
   .slide_explanation {
     width: 500px;
   }
@@ -171,4 +180,11 @@
     padding: 2rem;
   }
 
+}
+
+@media screen and (max-width: 1400px) {
+    
+  .footer_upper_section_map_picture {
+    display: none;
+  }
 }
