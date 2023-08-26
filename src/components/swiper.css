@@ -1,7 +1,7 @@
 .swiper {
   margin-left: auto;
   margin-right: auto;
-  height: auto;
+  min-height: 700px;
 }
 
 .swiper-slide {
@@ -50,7 +50,6 @@
   gap: 2rem;
   padding: 3rem;
   font-family: 'Jost', sans-serif; 
-  height: auto;
 }
 
 .swiper_header {
@@ -76,4 +75,4 @@
   font-size: var(--fontSize2);
   opacity: 0.50;
   margin: 2.5rem 0;
-}
+} 

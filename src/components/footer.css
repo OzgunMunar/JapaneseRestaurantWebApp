@@ -83,10 +83,13 @@
 }
 
 .footer_lower_left_social_buttons > * {
-    padding: 3px;
     border: 1px solid transparent;
     transition: all 1s ease;
     cursor: pointer;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer_lower_left_social_buttons > *:hover {
