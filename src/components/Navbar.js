@@ -1,5 +1,6 @@
 import React, { useState, useEffect }  from 'react'
 import '../components/navbarToggle.css'
+import SideBar from './SideBar'
 
 const Navbar = () => {
 
@@ -30,29 +31,31 @@ const Navbar = () => {
 
     <div className="navbar">
 
-        <div className="logo">
-            .x ARIGATO x.
-        </div>
+      <div className="logo"> .x ARIGATO x. </div>
 
-        {
-          (toggleButton === true) ?
+      {
+        
+        (toggleButton === true) ?
 
+        <div className="main-content">
             <div className={`toggle ${(menuOpen) ? 'active' : ''}`} onClick={toggleMenu}>
 
               <span></span>
               <span></span>
               <span></span>
-          
-            </div>
 
-            :
-            <div className="navbar_links">
-              <a href="/">HOME</a>
-              <a href="/">ABOUT</a>
-              <a href="/">MENU</a>
             </div>
+            <SideBar isOpen={menuOpen} toggleSidebar={toggleMenu} />
+            {/* Add your main content here */}
+          </div>
+          :
+          <div className="navbar_links">
+            <a href="/">HOME</a>
+            <a href="/">ABOUT</a>
+            <a href="/">MENU</a>
+          </div>
 
-          }
+        }
         
     </div>
 
