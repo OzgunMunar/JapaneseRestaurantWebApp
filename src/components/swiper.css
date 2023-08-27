@@ -64,7 +64,7 @@
 .swiper_header_title {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: var(--fontSize4);
+  /* font-size: var(--fontSize4); */
   line-height: 1.167em;
   letter-spacing: 0.08em;
   color: var(--accent-color);
@@ -72,7 +72,7 @@
 
 .swiper_header_explanation {
   font-family: 'Dancing Script', cursive;
-  font-size: var(--fontSize2);
+  /* font-size: var(--fontSize2); */
   opacity: 0.50;
   margin: 2.5rem 0;
 } 

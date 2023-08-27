@@ -33,13 +33,8 @@ const Footer = () => {
 
           <div className='footer_lower_left_section'>
 
-<<<<<<< HEAD
-            <div class="logo">
-              ARIGATO
-=======
             <div className="logo">
-              .x ARIGATO x.
->>>>>>> 5487e09e13ce22f391226f1a13b201656a841f20
+              ARIGATO
             </div>
 
           </div>
