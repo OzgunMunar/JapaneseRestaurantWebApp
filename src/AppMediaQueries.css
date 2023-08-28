@@ -2,10 +2,6 @@
 /* hide navbar's links */
 @media only screen and (max-width: 768px) {
 
-  body {
-    background-color: green;
-  }
-
   .swiper {
     min-height: 925px;
   }
@@ -129,10 +125,6 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 992px){
-
-  body {
-    background-color: red;
-  }
 
   .swiper {
     min-height: 975px;
@@ -274,10 +266,6 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1200px){
-
-  body {
-    background-color: blue;
-  }
 
   .first_section_title {
     font-size: var(--fontSize4);
