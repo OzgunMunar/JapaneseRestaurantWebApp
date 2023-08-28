@@ -13,7 +13,7 @@ import SlideExplanation from './SlideExplanation'
 export default function App() {
 
   return (
-    <>
+    <div className='swiper-container'>
 
       <div className='swiper_header'>
         <h3 className='swiper_header_title'>BROWSE OUR LOCATIONS</h3>
@@ -52,6 +52,6 @@ export default function App() {
 
       </Swiper>
       
-    </>
+    </div>
   );
 }

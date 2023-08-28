@@ -116,7 +116,7 @@
 .about_the_restaurant_second_section_title {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    font-size: var(--fontSize5);
+    font-size: var(--fontSize3);
     letter-spacing: 0.1em;
     color: var(--accent-color);
     text-align: center;

@@ -2,6 +2,14 @@
 /* hide navbar's links */
 @media only screen and (max-width: 768px) {
 
+  body {
+    background-color: green;
+  }
+
+  .swiper {
+    min-height: 925px;
+  }
+
   .swiper-button-prev,
   .swiper-button-next {
     color: black;
@@ -82,6 +90,15 @@
     gap: 2rem;
   }
 
+  .about_the_restaurant_numbers .about_the_restaurant_number_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   }
+ 
+   .about_the_restaurant_numbers .about_the_restaurant_number_container .about_the_restaurant_number {
+     width: 40vw;
+   }
+
   .footer_upper_section {
     display: flex;
     justify-content: center;
@@ -112,6 +129,14 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 992px){
+
+  body {
+    background-color: red;
+  }
+
+  .swiper {
+    min-height: 975px;
+  }
 
   .swiper,
   .swiper-slide img  {
@@ -184,6 +209,15 @@
     bottom: 25rem;
   }
 
+  .about_the_restaurant_numbers .about_the_restaurant_number_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   }
+ 
+   .about_the_restaurant_numbers .about_the_restaurant_number_container .about_the_restaurant_number {
+     width: 40vw;
+   }
+
   .third_section_first_half img {
     width: 50vw;
     height: auto;
@@ -241,12 +275,17 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1200px){
 
+  body {
+    background-color: blue;
+  }
+
   .first_section_title {
     font-size: var(--fontSize4);
   }
 
   .swiper{
     width: 900px;
+    min-height: 850px;
   }
 
   .slide_explanation {
@@ -285,11 +324,21 @@
     width: 50vw;
     height: auto;
   }    
+
+  .about_the_restaurant_numbers .about_the_restaurant_number_container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about_the_restaurant_numbers .about_the_restaurant_number_container .about_the_restaurant_number {
+    width: 40vw;
+  }
   
   .footer_upper_section {
     padding: 0 5vw;
     gap: 1rem;
   }
+
   .footer_upper_section_header {
     text-align: center;
   }

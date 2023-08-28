@@ -38,7 +38,7 @@ const Navbar = () => {
         
         (toggleButton === true) ?
 
-        <div className="main-content">
+          <div className="main-content">
             <div className={`toggle ${(menuOpen) ? 'active' : ''}`} onClick={toggleMenu}>
 
               <span></span>

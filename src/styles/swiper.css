@@ -1,7 +1,8 @@
 .swiper {
   margin-left: auto;
   margin-right: auto;
-  min-height: 700px;
+  /* min-height: 700px; */
+  height: 750px;
 }
 
 .swiper-slide {
@@ -19,6 +20,7 @@
   width: 700px;
   height: 650px;
   object-fit: cover;
+  transition: 500ms;
 }
 
 .swiper-button-prev,
@@ -35,6 +37,7 @@
 .swiper-button-next:hover {
   background-color: var(--accent-color);
   color: white;
+  scale: 0.95;
 }
 
 .swiper-button-prev:after,
