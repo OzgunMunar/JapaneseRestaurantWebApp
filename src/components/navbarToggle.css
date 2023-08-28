@@ -18,6 +18,11 @@
     position: fixed;
     top: 25px;
     right: 16%;
+    background-color: #333;
+}
+
+.toggle.active span {
+    background-color: white;
 }
 
 .toggle span {
