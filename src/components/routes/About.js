@@ -66,8 +66,45 @@ const About = () => {
 
       <div className='about_the_restaurant_second_section'>
 
-        <div>
+        <div className='about_the_restaurant_second_section_title'>
+          TESTIMONIALS
+        </div>
+
+        <div className='about_the_restaurant_testimonials'>
           
+          <div className='about_the_restaurant_testimonial'>
+
+            <img className='testimonial_photo' src='https://randomuser.me/api/portraits/men/36.jpg' alt=''/>
+
+            <div className='testimonial_text'>
+              <p className='testimonial_explanation'>Consequat duis velit excepteur nostrud pariatur ipsum. Nulla Lorem Lorem cillum exercitation exercitation do adipisicing reprehenderit aliquip ullamco incididunt id. Ullamco proident dolore elit exercitation ad. Pariatur dolore ullamco sint adipisicing nulla pariatur excepteur minim. Eu irure ea commodo velit eu cupidatat cupidatat eu sint dolore deserunt ullamco eu ad. Consequat culpa deserunt adipisicing sunt eu proident excepteur voluptate pariatur nostrud consequat ea minim tempor.</p>
+              <p className='testimonial_fullname'>Rosa Andre</p>
+            </div>
+
+          </div>
+
+          <div className='about_the_restaurant_testimonial'>
+
+            <img className='testimonial_photo' src='https://randomuser.me/api/portraits/women/14.jpg' alt=''/>
+            
+            <div className='testimonial_text'>
+              <p className='testimonial_explanation'>Consequat duis velit excepteur nostrud pariatur ipsum. Nulla Lorem Lorem cillum exercitation exercitation do adipisicing reprehenderit aliquip ullamco incididunt id. Ullamco proident dolore elit exercitation ad. Pariatur dolore ullamco sint adipisicing nulla pariatur excepteur minim. Eu irure ea commodo velit eu cupidatat cupidatat eu sint dolore deserunt ullamco eu ad. Consequat culpa deserunt adipisicing sunt eu proident excepteur voluptate pariatur nostrud consequat ea minim tempor.</p>
+              <p className='testimonial_fullname'>Angelia Paige</p>
+            </div>
+
+          </div>
+
+          <div className='about_the_restaurant_testimonial'>
+
+            <img className='testimonial_photo' src='https://randomuser.me/api/portraits/women/33.jpg' alt=''/>
+
+            <div className='testimonial_text'>
+              <p className='testimonial_explanation'>Consequat duis velit excepteur nostrud pariatur ipsum. Nulla Lorem Lorem cillum exercitation exercitation do adipisicing reprehenderit aliquip ullamco incididunt id. Ullamco proident dolore elit exercitation ad. Pariatur dolore ullamco sint adipisicing nulla pariatur excepteur minim. Eu irure ea commodo velit eu cupidatat cupidatat eu sint dolore deserunt ullamco eu ad. Consequat culpa deserunt adipisicing sunt eu proident excepteur voluptate pariatur nostrud consequat ea minim tempor.</p>
+              <p className='testimonial_fullname'>Alyx Prue</p>
+            </div>
+
+          </div>
+
         </div>
         
       </div>
