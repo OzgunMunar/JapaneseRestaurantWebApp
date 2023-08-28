@@ -94,7 +94,7 @@ font-family: 'Playfair Display', serif; title */
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: -10rem;
+    /* margin-top: -10rem; */
 }
 
 .first_section_text {

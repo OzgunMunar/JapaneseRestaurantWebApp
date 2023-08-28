@@ -1,5 +1,5 @@
 import React, { useState, useEffect }  from 'react'
-import '../components/navbarToggle.css'
+import '../styles/navbarToggle.css'
 import SideBar from './SideBar'
 import { Link } from 'react-router-dom'
 

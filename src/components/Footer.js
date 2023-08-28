@@ -1,5 +1,5 @@
 import React from 'react'
-import './footer.css'
+import '../styles/footer.css'
 import { CgFacebook, CgInstagram } from 'react-icons/cg';
 import { VscTwitter } from 'react-icons/vsc'
 import { TiSocialLinkedin } from 'react-icons/ti'

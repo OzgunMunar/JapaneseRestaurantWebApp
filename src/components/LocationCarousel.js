@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import './swiper.css';
+import '../styles/swiper.css'
 
 import {Navigation } from 'swiper/modules';
 import SlideExplanation from './SlideExplanation'
