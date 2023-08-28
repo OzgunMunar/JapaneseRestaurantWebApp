@@ -17,10 +17,11 @@
 
 .footer_upper_section_reservate {
     width: 900px;
-    height: 885px;
+    height: 50vh;
     background-color: var(--accent-color);
     font-family: 'Jost', sans-serif;  
     color: white;
+    padding: 2rem 0;
 
     display: grid;
     align-items: center;

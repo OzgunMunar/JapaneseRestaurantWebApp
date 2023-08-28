@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const SideBar = ({ isOpen }) => {
+const SideBar = ({ isOpen, toggleSidebar }) => {
 
   return (
 
@@ -10,9 +11,9 @@ const SideBar = ({ isOpen }) => {
 
           <div className="sidebar_links">
 
-            <a href="/">HOME</a>
-            <a href="/">ABOUT</a>
-            <a href="/">MENU</a>
+            <Link to="/" onClick={toggleSidebar}>HOME</Link>
+            <Link to="/about" onClick={toggleSidebar}>ABOUT</Link>
+            <Link to="/menu" onClick={toggleSidebar}>MENU</Link>
 
           </div>
 

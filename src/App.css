@@ -35,11 +35,23 @@ font-family: 'Playfair Display', serif; title */
     font-size: 1.5rem;
     font-family: 'Jost', sans-serif;
     font-weight: 700;
+}
 
+.navbar.active {
+    margin-top: 25px;
 }
 
 .navbar .logo {
+    position: relative;
     cursor: pointer;
+    z-index: 999999;
+    transition: color 750ms ease;
+}
+
+.navbar .logo.active {
+    color: white;
+    position: fixed;
+    top: 42.5px;
 }
 
 .navbar_links {
@@ -248,4 +260,3 @@ font-family: 'Playfair Display', serif; title */
     margin-right: 3.5rem;
     padding: 1rem;
 }
-

@@ -1,6 +1,7 @@
 import React, { useState, useEffect }  from 'react'
 import '../components/navbarToggle.css'
 import SideBar from './SideBar'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -29,9 +30,9 @@ const Navbar = () => {
 
   return (
 
-    <div className="navbar">
+    <div className={`navbar ${(menuOpen) ? 'active' : ''}`}>
 
-      <div className="logo"> .x ARIGATO x. </div>
+      <div className={`logo ${(menuOpen) ? 'active' : ''}`}> .x ARIGATO x. </div>
 
       {
         
@@ -50,9 +51,11 @@ const Navbar = () => {
           </div>
           :
           <div className="navbar_links">
-            <a href="/">HOME</a>
-            <a href="/">ABOUT</a>
-            <a href="/">MENU</a>
+
+            <Link to="/">HOME</Link>
+            <Link to="/about">ABOUT</Link>
+            <Link to="/menu">MENU</Link>
+            
           </div>
 
         }

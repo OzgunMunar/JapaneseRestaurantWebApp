@@ -1,5 +1,5 @@
 import React from 'react'
-import LocationCarousel from '../components/LocationCarousel.js'
+import LocationCarousel from '../LocationCarousel.js'
 
 const Home = () => {
 
@@ -61,8 +61,6 @@ const Home = () => {
         <div className="horizontal_line"></div>
 
         <LocationCarousel />
-
-        <div className="horizontal_line"></div>
 
     </div>
     
