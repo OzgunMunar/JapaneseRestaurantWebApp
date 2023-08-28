@@ -9,13 +9,9 @@ const Navbar = () => {
   const [toggleButton, setToggleButton] = useState(false)
   const [windowInnerWidth, setWindowInnerWidth] = useState(window.innerWidth)
 
-  const updateInnerWidth = () => {
-    setWindowInnerWidth(window.innerWidth)
-  }
+  const updateInnerWidth = () => { setWindowInnerWidth(window.innerWidth) }
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen)
-  }
+  const toggleMenu = () => { setMenuOpen(!menuOpen) }
 
   useEffect(() => {
 
@@ -26,6 +22,7 @@ const Navbar = () => {
     return () => {
       window.removeEventListener('resize', updateInnerWidth)
     };
+    
   }, [windowInnerWidth])
 
   return (
@@ -47,7 +44,6 @@ const Navbar = () => {
 
             </div>
             <SideBar isOpen={menuOpen} toggleSidebar={toggleMenu} />
-            {/* Add your main content here */}
           </div>
           :
           <div className="navbar_links">
