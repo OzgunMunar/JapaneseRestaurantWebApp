@@ -1,0 +1,27 @@
+.menu_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.our_menu_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    width: 75%;
+}
+
+.our_menu_item {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative; */
+}
+
+.our_menu_item_image{
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+}
