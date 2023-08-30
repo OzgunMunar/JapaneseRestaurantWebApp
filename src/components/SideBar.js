@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const SideBar = ({ isOpen, toggleSidebar }) => {
 
   return (
-
+    
     <div className={`sidebar ${isOpen ? 'open' : ''}`}>
 
         <div className='sidebarContainer'>
