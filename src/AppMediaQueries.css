@@ -2,6 +2,10 @@
 /* hide navbar's links */
 @media only screen and (max-width: 768px) {
 
+  body{
+    background-color: blue;
+  }
+  
   .swiper {
     min-height: 925px;
   }
@@ -29,21 +33,7 @@
   }
 
   .first_section {
-    margin-bottom: -15rem;
-  }
-
-  .second_section_images img:nth-child(1) {
-    left: 0;
-    bottom: 30rem;
-  }
-
-  .second_section_images img:nth-child(2) {
-    bottom: 25rem;
-  }
-
-  .second_section_images img:nth-child(3) {
-    right: 0;
-    bottom: 30rem;
+    margin-bottom: 2rem;
   }
 
   .second_section_text {
@@ -54,6 +44,10 @@
     display: grid;
     gap: 1.5rem;
     place-items: center;
+  }
+
+  .second_section_images {
+    top: -12rem;
   }
   
   .third_section {
@@ -167,29 +161,15 @@
   }
 
   .first_section_title {
-    font-size: var(--fontSize3);
+    font-size: var(--fontSize4);
   }
 
   .first_section_explanation {
-    font-size: var(--fontSize1);
+    font-size: var(--fontSize2);
   }
 
   .first_section {
-    margin-bottom: -15rem;
-  }
-
-  .second_section_images img:nth-child(1) {
-    left: 0;
-    bottom: 30rem;
-  }
-
-  .second_section_images img:nth-child(2) {
-    bottom: 20rem;
-  }
-
-  .second_section_images img:nth-child(3) {
-    right: 0;
-    bottom: 30rem;
+    margin-bottom: 2rem;
   }
 
   .second_section_text {
@@ -202,8 +182,8 @@
     place-items: center;
   }
 
-  .second_section_images img:nth-child(2) {
-    bottom: 25rem;
+  .second_section_images {
+    top: -5rem;
   }
 
   .about_the_restaurant_numbers .about_the_restaurant_number_container {
@@ -299,7 +279,7 @@
     font-size: var(--fontSize2);
   }
 
-  .second_section_images img:nth-child(1) {
+  /* .second_section_images img:nth-child(1) {
     left: 0;
     bottom: 30rem;
   }
@@ -311,7 +291,7 @@
   .second_section_images img:nth-child(3) {
     right: 0;
     bottom: 30rem;
-  }
+  } */
 
   .third_section_first_half img {
     width: 50vw;
