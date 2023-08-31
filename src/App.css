@@ -27,6 +27,14 @@ font-family: 'Playfair Display', serif; title */
 
 }
 
+.home_page_container,
+.about_page_container,
+.menu_container {
+    animation-name: visibilityChange;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -53,6 +61,11 @@ font-family: 'Playfair Display', serif; title */
     color: white;
     position: fixed;
     top: 42.5px;
+}
+
+.navbar .logo a {
+    text-decoration: none;
+    color: black;
 }
 
 .navbar_links {

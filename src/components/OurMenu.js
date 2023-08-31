@@ -1,6 +1,7 @@
 import React from 'react'
 import { nanoid } from 'nanoid'
 import '../styles/menu.css'
+import '../../src/AppAnimations.css'
 
 const OurMenu = ({ datas }) => {
 
@@ -9,7 +10,7 @@ const OurMenu = ({ datas }) => {
     <div className='our_menu_container'>
 
     {datas?.map((item) => {
-
+      
       return (
 
         <div className='our_menu_item' key={nanoid()}>

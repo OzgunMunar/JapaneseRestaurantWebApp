@@ -5,7 +5,7 @@ const Home = () => {
 
   return (
 
-    <div>
+    <div className='home_page_container'>
 
         <section className="first_section">
 
@@ -24,9 +24,9 @@ const Home = () => {
         <section className="second_section">
 
             <div className="second_section_images">
-                <img src="images/section1_1.jpg" alt="Chef's seasoning a salad." />
-                <img src="images/section1_2.jpg" alt="Well sorted sushi table with sauce." />
-                <img src="images/section1_3.jpg" alt="A food on the table" />
+                <img loading='lazy' src="images/section1_1.jpg" alt="Chef's seasoning a salad." />
+                <img loading='lazy' src="images/section1_2.jpg" alt="Well sorted sushi table with sauce." />
+                <img loading='lazy' src="images/section1_3.jpg" alt="A food on the table" />
             </div>
 
             <h1 className="second_section_text">Available in all delivery platforms</h1>

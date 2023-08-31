@@ -6,7 +6,7 @@ const About = () => {
 
   return (
 
-    <div>
+    <div className='about_page_container'>
 
       <div className='about_the_restaurant_first_section'>
 

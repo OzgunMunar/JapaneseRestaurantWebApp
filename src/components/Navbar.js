@@ -29,7 +29,7 @@ const Navbar = () => {
 
     <div className={`navbar ${(menuOpen) ? 'active' : ''}`}>
 
-      <div className={`logo ${(menuOpen) ? 'active' : ''}`}> .x ARIGATO x. </div>
+      <div className={`logo ${(menuOpen) ? 'active' : ''}`}> <Link to="/"> .x ARIGATO x. </Link> </div>
 
       {
         
