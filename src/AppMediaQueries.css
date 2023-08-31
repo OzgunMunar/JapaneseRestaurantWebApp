@@ -95,6 +95,11 @@
      width: 40vw;
    }
 
+   .menu_container .menu_page_food_type_button_list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+
   .footer_upper_section {
     display: flex;
     justify-content: center;
