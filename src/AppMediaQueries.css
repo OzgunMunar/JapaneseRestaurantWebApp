@@ -1,11 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 /* hide navbar's links */
 @media only screen and (max-width: 768px) {
-
-  body{
-    background-color: blue;
-  }
-  
+    
   .swiper {
     min-height: 925px;
   }
@@ -34,6 +30,11 @@
 
   .first_section {
     margin-bottom: 2rem;
+  }
+
+  .first_section_buttons {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 
   .second_section_text {
