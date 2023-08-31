@@ -68,6 +68,11 @@ font-family: 'Playfair Display', serif; title */
     color: black;
 }
 
+.navbar .logo.active a {
+    text-decoration: none;
+    color: white;
+}
+
 .navbar_links {
     display: flex;
     align-items: center;
@@ -106,8 +111,8 @@ font-family: 'Playfair Display', serif; title */
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .first_section_text {
@@ -115,7 +120,7 @@ font-family: 'Playfair Display', serif; title */
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 0 15%;
+    margin: 7.5rem 15% 0 15%;
     text-align: center;
 }
 
